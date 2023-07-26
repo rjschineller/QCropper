@@ -16,6 +16,7 @@
 		116C4E00235611E800D11428 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C4DFF235611E800D11428 /* ExampleTests.swift */; };
 		116C4E0B235611E800D11428 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116C4E0A235611E800D11428 /* ExampleUITests.swift */; };
 		54F81FE808832BD67844FE50 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BC562663C967EEA86066DB /* Pods_Example.framework */; };
+		787152722A7166D1005CCDB8 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787152712A7166D1005CCDB8 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		116C4E06235611E800D11428 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		116C4E0A235611E800D11428 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		116C4E0C235611E800D11428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		787152712A7166D1005CCDB8 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		D9BC562663C967EEA86066DB /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAAB5F40935BC4686B6F0FA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 		116C4DDC235611E600D11428 = {
 			isa = PBXGroup;
 			children = (
+				787152712A7166D1005CCDB8 /* Package.swift */,
 				116C4DE7235611E600D11428 /* Example */,
 				116C4DFE235611E800D11428 /* ExampleTests */,
 				116C4E09235611E800D11428 /* ExampleUITests */,
@@ -329,6 +332,7 @@
 				116C4DED235611E600D11428 /* ViewController.swift in Sources */,
 				116C4DE9235611E600D11428 /* AppDelegate.swift in Sources */,
 				11574BFF2362700A00A9C9E3 /* CustomOverlay.swift in Sources */,
+				787152722A7166D1005CCDB8 /* Package.swift in Sources */,
 				11574C012362701F00A9C9E3 /* CustomCropperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
